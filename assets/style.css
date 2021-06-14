@@ -1,3 +1,7 @@
+/* jumbotron section*/
+.bg-info {
+    background-color: #f545ba!important;
+
 /* Body Margin for Fixed Footer */
 body {
     margin-bottom: 80px; 
@@ -17,7 +21,7 @@ body {
 .card-header {
     color: #fff;
     border-radius: 10px;
-    background-color:  #dc35ac;  
+    background-color:  #9c999c;  
 }
 
 /* Card Body Text Bold */
@@ -28,5 +32,5 @@ body {
 
 /* Font Awesome Style */
 .fas {
-    color: rgb(250, 255, 0);
+    color: rgb(247, 82, 205);
 }
