@@ -1,5 +1,5 @@
 // Obtain / Require Intern Class
-const Intern = require('../lib/intern');
+const Intern = require('../lib/Intern');
 
 // Intern Class Constructor Jest test
 describe('Intern', () => {

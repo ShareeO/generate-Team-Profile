@@ -1,5 +1,5 @@
 // Obtain / Require Intern Class
-const Manager = require('../lib/manager');
+const Manager = require('../lib/Manager');
 
 // Intern Class Constructor Jest test
 describe('Manager', () => {

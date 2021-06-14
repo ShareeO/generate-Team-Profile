@@ -1,9 +1,9 @@
 // Dependencies
 const fs = require("fs");
 const inquirer = require("inquirer");
-const Engineer = require("./Engineer");
-const Intern = require("./Intern");
-const Manager = require("./Manager");
+const Engineer = require("./lib/Engineer");
+const Intern = require("./lib/Intern");
+const Manager = require("./lib/Manager");
 
 // Empty employees array for new team members
 const employees = [];
@@ -156,7 +156,7 @@ function htmlHead() {
         <div class="row">
     `;
 
-  fs.writeFile("./dist/index.html", html, function (error) {
+  fs.writeFile("index.html", html, function (error) {
     if (error) {
       console.log(error);
     }
@@ -233,7 +233,7 @@ function htmlCards(member) {
             `;
     }
     console.log("Team Member's Profile Added");
-    fs.appendFile("./dist/index.html", data, function (error) {
+    fs.appendFile("index.html", data, function (error) {
       if (error) {
         return reject(error);
       }
@@ -248,7 +248,7 @@ function htmlFooter() {
     </main>  
 `;
 
-  fs.appendFile("./dist/index.html", html, function (error) {
+  fs.appendFile("index.html", html, function (error) {
     if (error) {
       console.log(error);
     }
