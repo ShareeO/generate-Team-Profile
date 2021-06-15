@@ -19,3 +19,11 @@ Image of profile
 
 ## Used
 
+JavaScript
+68.2%
+ 
+HTML
+28.5%
+ 
+CSS
+3.3%
